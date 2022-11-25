@@ -1,0 +1,12 @@
+### create
+POST localhost:8080/create
+Content-Type:  application/json
+
+{
+  "name": "Alish",
+  "birthdate": "2003/02/25",
+  "createdDate": "2003-02-25"
+}
+
+### create
+GET localhost:8080/list?page=2&size=5
